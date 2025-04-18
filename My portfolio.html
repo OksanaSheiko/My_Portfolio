@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Oksana Sheiko — QA Engineer</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+      padding: 2rem;
+      text-align: center;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .nav-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+    }
+
+    .nav-links a {
+      color: #007acc;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+    .profile-photo {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .subtitle {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: #555;
+  }
+
+    .resume-button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #007acc;
+  color: white !important;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.resume-button:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+    .card {
+      background-color: white;
+      padding: 2rem;
+      margin: 2rem 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      text-align: left;
+    }
+
+    .card h2 {
+      color: #007acc;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+
+    .card ul {
+      padding-left: 1.2rem;
+    }
+
+    .card li {
+      margin-bottom: 0.7rem;
+    }
+
+    .card a {
+      color: #007acc;
+      text-decoration: none;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid #ddd;
+      font-size: 0.9rem;
+      color: #999;
+    }
+
+#no-bullets {
+  list-style-type: none;  /* Убираем стандартные маркеры только для этого списка */
+  padding-left: 0;        /* Убираем отступы слева */
+}
+  </style>
+</head>
+<body>
+
+  <!-- Навигация -->
+  <div class="nav-links">
+    <a href="#about">About me</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contacts</a>
+    <a href="#resume-download" class="nav-link">Resume</a>
+  </div>
+
+  <!-- Фото и заголовок -->
+  <header>
+    <img src="profile.jpg" alt="Oksana Sheiko" class="profile-photo">
+    <p class="subtitle">Hi, my name is</p>
+    <h1>Oksana Sheiko</h1>
+    <p class="subtitle">I am - QA Engineer</p>
+
+  </header>
+
+  <!-- Блоки -->
+  <div class="card" id="about">
+    <h2>About me</h2>
+    <p>I am a software testing engineer. My focus on making products reliable and user-friendly. 
+    By applying a thorough approach to testing and automation, I help improve the quality of software solutions. 
+    My experience with various testing tools allows me to effectively identify and fix issues at different stages of development. 
+    If you value quality and attention to detail, I’d be happy to help!</p>
+  </div>
+
+  <div class="card" id="skills">
+    <h2>Hard Skills</h2>
+    <ul>
+      <li>Client-server architecture, HTTP</li>
+      <li>Checklist creation in MIRO. Test case creation in TMS. Working with Test IT. Bug reporting in JIRA and Yandex tracker</li>
+      <li>Working with the REST and requests API in JSON and XML formats</li>
+      <li>Working with SOAP and the SOAP UI testing tool</li>
+      <li>Experience with documentation in Swagger, Redoc, and WSDL</li>
+      <li>Using Postman for API backend testing and writing automated tests</li>
+      <li>Using DevTools for testing the frontend of web applications</li>
+      <li>Viewing logs in Kibana, Sentry, and Grafana</li>
+      <li>Working with relational databases (PostgreSQL and MySQL), sending SQL requests in Metabase</li>
+      <li>Working with non-relational databases like MongoDB and verifying requests in Compass</li>
+      <li>Working with non-relational database Redis in Redis Commander and using Jaeger</li>
+      <li>Using both functional and non-functional testing in my work</li>  
+    </ul>
+  </div>
+
+  <div class="card" id="skills">
+    <h2>Soft Skills</h2>
+    <ul id="no-bullets">
+      <li>&#10003; Attention to detail</li>
+      <li>&#10003; Teamwork</li>
+      <li>&#10003; Communication with developers and managers</li>
+      <li>&#10003; Critical thinking and analytical skills</li>
+    </ul>
+  </div>
+
+  <div class="card" id="contact">
+    <h2>Contacts</h2>
+    <p>Email: <a href="mailto:oksanasheiko.qa@gmail.com">oksanasheiko.qa@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/oksanasheiko" target="_blank">linkedin.com/in/oksanasheiko</a></p>
+    <p>GitHub: <a href="https://github.com/xxxx-qa" target="_blank">github.com/xxxxx-qa</a></p>
+  </div>
+
+  <div class="card" id="resume">
+    <h2>Resume</h2>
+    <a id="resume-download" href="resume.pdf" download class="resume-button">Download Resume (PDF)</a>
+  </div>
+
+  <footer>
+    <p>© 2025 Oksana Sheiko — QA Engineer</p>
+  </footer>
+<script>
+  window.onload = function() {
+    if (window.location.hash) {
+      window.scrollTo(0, 0);  // Прокручиваем страницу в начало
+    }
+  };
+</script>
+</body>
+</html>
